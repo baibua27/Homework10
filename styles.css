@@ -1,0 +1,33 @@
+/* Apply a global box-sizing rule */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.suminfo {
+  text-align: center;
+}
+
+.counter {
+  display: flex;
+  align-items: baseline;
+  background: pink;
+  height: 80px;
+  width: 300px;
+  margin: 1rem auto;
+  text-align: center;
+  padding: 10px;
+  border: 1px dashed; /* Add a color or style for the dashed border */
+}
+
+.counter > * {
+  height: 100%;
+  flex: 1;
+  font-size: 24px;
+}
+
+.text-center {
+  text-align: center;
+  margin: auto; /* Removed display: block; since it's not needed */
+}
